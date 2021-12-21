@@ -48,3 +48,10 @@ $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/drop.sql
 $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/insert.sql
 ```
 
+## SELECT
+
+```
+$ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/select.sql
+$ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/select-distinct.sql
+$ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/select-combine.sql
+```
