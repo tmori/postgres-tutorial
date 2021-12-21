@@ -34,10 +34,22 @@ $ psql -h 0.0.0.0 -p 5432 -U tmori -l
 $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/create.sql
 ```
 
+## CREATE VIEW
+```
+$ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/create-view.sql
+```
+
+
 ## DROP TABLE
 
 ```
 $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/drop.sql
+```
+
+## DROP VIEW
+
+```
+$ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/drop-view.sql
 ```
 
 # DML(Data Manipulation Language)
