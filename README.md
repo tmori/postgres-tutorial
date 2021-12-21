@@ -161,7 +161,6 @@ backup.tar.gz
 ### restore
 
 ```
-$ gunzip offline_backup/backup.tar.gz
 $ docker run --rm \
     --volumes-from db_db_1 \
     -v `pwd`/offline_backup:/backup \
