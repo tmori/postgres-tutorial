@@ -32,3 +32,8 @@ $ psql -h 0.0.0.0 -p 5432 -U tmori -l
 $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/create.sql
 ```
 
+## DROP TABLE
+
+```
+$ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/drop.sql
+```
