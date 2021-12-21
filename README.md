@@ -55,6 +55,13 @@ $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/select.sql
 $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/select-distinct.sql
 $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/select-combine.sql
 ```
+
+### VIEW
+
+```
+
+```
+
 ## UPDATE
 
 ```
@@ -66,3 +73,6 @@ $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/update.sql
 ```
 $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/delete.sql 
 ```
+
+# DCL(Data Control Language)
+##

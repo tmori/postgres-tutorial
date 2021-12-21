@@ -1,4 +1,4 @@
 CREATE TABLE cities (
-	id		serial,
+	id		serial primary key,
 	name	varchar(80)
 );
