@@ -92,3 +92,18 @@ $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/transaction-successl.sql
 ```
 $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/transaction-rollback.sql
 ```
+
+# Backup & Restore
+## ONLINE && LOGICAL 
+
+### backup
+
+```
+$ pg_dump -h 0.0.0.0 -p 5432 -d sample -U tmori -f sample.backup
+```
+
+### restore
+
+```
+$ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sample.backup
+```
