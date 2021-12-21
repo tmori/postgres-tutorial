@@ -1,7 +1,9 @@
 # postgres-tutorial
 postgres tutorial
 
-see: https://mebee.info/2020/12/04/post-24686/
+# see
+ - https://mebee.info/2020/12/04/post-24686/
+ - https://qiita.com/aoi_erimiya/items/a37890fb4719357f7f87
 
 # procedure
 
@@ -25,7 +27,7 @@ $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori
 $ psql -h 0.0.0.0 -p 5432 -U tmori -l
 ```
 
-# DDL
+# DDL(Data Definition Language)
 ## CREATE TABLE
 
 ```
@@ -37,3 +39,12 @@ $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/create.sql
 ```
 $ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/drop.sql
 ```
+
+# DML(Data Manipulation Language)
+
+## INSERT
+
+```
+$ psql -h 0.0.0.0 -p 5432 -d sample -U tmori -f sql/insert.sql
+```
+

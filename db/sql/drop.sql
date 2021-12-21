@@ -1,1 +1,1 @@
-DROP TABLE programming;
+DROP TABLE weather;
