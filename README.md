@@ -4,6 +4,8 @@ postgres tutorial
 # see
  - https://mebee.info/2020/12/04/post-24686/
  - https://qiita.com/aoi_erimiya/items/a37890fb4719357f7f87
+ - https://qiita.com/bwtakacy/items/65260e29a25b5fbde835
+ - https://qiita.com/d0ne1s/items/8de0ce7efdeec999170e
 
 # install
 
